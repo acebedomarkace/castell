@@ -35,6 +35,6 @@ weight = 5
 
 # Biography
 
-Ace is currently serving as a Senior Level Engineer on a Globe Telecom project. His research interests inlcudes big data, mobile computing and programmable matter. He plays and active role in the Network Insights Team, which develops optimization
+Ace is currently serving as a Senior Level Engineer on a Globe Telecom project. His research interests includes big data, mobile computing and programmable matter. He plays and active role in the Network Insights Team, which develops optimization
 solutions by analyzing network data for actionable insights using R and Tableau as his favorite tools.
 
