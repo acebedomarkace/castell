@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "R for Applied Data Science",
-    "Computational Linguistics",
+    "Machine Learning",
     "Statistical Programming"
   ]
 
@@ -35,6 +35,7 @@ weight = 5
 
 # Biography
 
-Ace is currently serving as a Senior Level Engineer on a Globe Telecom project. His research interests includes big data, mobile computing and programmable matter. He plays and active role in the Network Insights Team, which develops optimization
-solutions by analyzing network data for actionable insights using R and Tableau as his favorite tools.
+Ace is currently serving as Senior RF Engineer on a Globe Telecom project. His interests includes big data, mobile computing and programmable matter. He plays an active role in the Network Insights Team, which develops optimization
+solutions by analyzing network data for actionable insights using R and Tableau.
 
+He leads various quality-centric initiatives aimed at improving subscriber experience.
