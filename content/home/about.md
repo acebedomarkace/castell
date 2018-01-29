@@ -28,7 +28,7 @@ weight = 5
 
 [[education.courses]]
   course = "BSc in Electronics and Communications Engineering"
-  institution = "MMSU"
+  #institution = "MMSU"
   year = 2004
  
 +++
