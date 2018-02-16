@@ -1,0 +1,37 @@
+---
+title: Sector Antenna Coverage
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: sector-antenna-coverage
+categories: []
+tags:
+  - RF Stuff
+---
+
+
+
+<div id="description-of-the-algorithm" class="section level3">
+<h3>Description of The Algorithm</h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>Determine cluster average site to site distance</strong>. Get the distance to 5 closest neighbor, the average of which is to be considered the average effective linear coverage - half of which is the -3dB point. I found an article in <a href="https://stackoverflow.com/questions/26850488/calculate-average-distance-between-point-and-closest-neighbors-in-r">stackoverflow</a> giving illustration to solve this problem using the <a href="https://cran.r-project.org/web/packages/fossil/fossil.pdf">fossil</a> package.</p></li>
+<li><p><strong>The -3dB coverage point</strong>. Recall that antenna propagation is typically illustrated by the following figure: <img src="/img/ant.png" /></p></li>
+</ol>
+<p>Note that the -3dB point defines the farthest extent of a sector antenna’s coverage. The desired setting is that this -3dB point coincides with half of our site-to-site distance as computed in the first step.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Current Situation</strong>. Determine the extent of the current effective cell coverage range using the random access timing advance indices <code>[0-11]</code>. Use this to determine the current location of the -3dB linear cell coverage point.</li>
+</ol>
+<p>Detecting the -3dB point is not so straight forward but it could be shown that it can be calculated through the following mathematical equations, <em>courtesy of <a href="https://www.allaboutcircuits.com/tools/antenna-downtilt-and-coverage-calculator/">www.allaboutcircuits.com</a></em></p>
+<div class="figure">
+<img src="/img/anteqn.png" />
+
+</div>
+<p>It could be noted that under normal terrain conditions the +3dB point is always the <code>=large(range,k=2)</code> in Excel terms, the second largest value among the UE.RA.TA indices.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>So is there overshooting?</strong>. Having pre-calculated the twin parameters needed, the <code>0.5S2S</code> (half of the average site to site distance) and the distance range of the `<code>-3dB Coverage Point</code>. We can proceed to compare the values.</li>
+</ol>
+<p><span class="math display">\[dist_{-3dB}=0.5(S2S_{avg})\]</span></p>
+<p>If the -3dB point is greater than half of the site to site distance then the sector has overshooting coverage and must therefore be downtilted. On the other hand if it is less then an uptilt is allowable.</p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Estimated Mechanical Antenna Tilt</strong>. Using the TSSR documented antenna height and the calculated -3dB point. The actual overall (mechanical + electrical) antenna tilt set on site could be approximated with precision using the tangent formulas. This value could be compared to the electrical tilt setting to determine the mechanical tilt on the antenna bracket.</li>
+</ol>
+</div>

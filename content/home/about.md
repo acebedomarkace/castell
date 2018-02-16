@@ -38,4 +38,4 @@ weight = 5
 Ace is currently serving as Senior RF Engineer on a Globe Telecom project. His interests includes big data, mobile computing and programmable matter. He plays an active role in the Network Insights Team, which develops optimization
 solutions by analyzing network data for actionable insights using R and Tableau.
 
-He leads various quality-centric initiatives aimed at improving subscriber experience.
+He leads various quality-centric initiatives aimed at improving LTE subscriber experience.

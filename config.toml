@@ -51,11 +51,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Ace Mark Acebedo"
-  role = "Data Science Pro"
+  role = "RF Engineer, Data Science Pro"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Asticom Technology Inc.", url = "" } ]
+  organizations = [ { name = "Asticom Technology Inc.", url = "http://asticom.com.ph" },{name="Globe Telecom", url="https://www.globe.com.ph"} ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "id.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -115,7 +115,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -253,10 +253,10 @@ defaultContentLanguageInSubdir = false
 #  url = "#publications_selected"
 #  weight = 2
 
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
 
 #[[menu.main]]
 #  name = "Projects"
