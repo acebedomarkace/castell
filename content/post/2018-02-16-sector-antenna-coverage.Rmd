@@ -16,7 +16,7 @@ tags:
 ![](/img/ant.png)
 
 Note that the -3dB point defines the farthest extent of a sector antenna's coverage.
-The desired setting is that this -3dB point coincides with half of our site-to-site distance as computed in the first step.
+The desired scenario is that this -3dB point coincides with half of our site-to-site distance as computed in the first step.
 
 3. **Current Situation**. Determine the extent of the current effective cell coverage range using the random access timing advance indices `[0-11]`. Use this to determine the current location of the -3dB linear cell coverage point.
 
@@ -27,10 +27,12 @@ Detecting the -3dB point is not so straight forward but it could be shown that i
 
 It could be noted that under normal terrain conditions the +3dB point is always the `=large(range,k=2)` in Excel terms, the second largest value among the UE.RA.TA indices.
 
-4. **So is there overshooting?**. Having pre-calculated the twin parameters needed, the `0.5S2S` (half of the average site to site distance) and the distance range of the ``-3dB Coverage Point`. We can proceed to compare the values.
+4. **So is there overshooting?**. Having pre-calculated the twin parameters needed, the `0.5S2S` (half of the average site to site distance) and the distance range of the `-3dB Coverage Point`. We can proceed to compare the values.
 
 $$dist_{-3dB}=0.5(S2S_{avg})$$
 
-If the -3dB point is greater than half of the site to site distance then the sector has overshooting coverage and must therefore be downtilted. On the other hand if it is less then an uptilt is allowable.
+Ideally, if the -3dB point is greater than half of the site to site distance then the sector has overshooting coverage and must therefore be downtilted. On the other hand if it is less, then, an uptilt is allowable.
+
+> *"It could be noted that the random access per TA is not an absolute value but rather a range of values of distances. This is a potential source of discrepancy - and disagreement, and would render the formula above almost always not applicable in its strictest sense, therefore, reasonable tolerances must be applied depending on the TA index where the -3dB point is detected, and it should be taken as a general principle. Therefore, it will still be a future task to precisionize the calculations, should there arise a counter that provides a granularity much finer than the existing OSS stats is able to provide."*
 
 5. **Estimated Mechanical Antenna Tilt**. Using the TSSR documented antenna height and the calculated -3dB point. The actual overall (mechanical + electrical) antenna tilt set on site could be approximated with precision using the tangent formulas. This value could be compared to the electrical tilt setting to determine the mechanical tilt on the antenna bracket.
