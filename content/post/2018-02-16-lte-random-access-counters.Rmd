@@ -1,0 +1,32 @@
+---
+title: LTE Random Access Counters
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: lte-random-access-counters
+categories: []
+tags:
+  - RF Stuff
+---
+***Coverage has great impact on LTE subscriber experience*** when one considers `Gap Measurement` occurrences in a highly mobile environment where handover happens due to coverage limitation. It can be said that the number of gap measurement occurences is a measure of the coverage continuity of a cluster - if extended, coverage continuity of an LTE network.
+
+Coverage assessment could be effectively done using the `RATA (Random Access per Timing Advance)` indices. Below is an illustration of a cluster coverage assessment using these counters:
+
+![](/img/dist.png)
+
+When this is taken in connection with the following figure,
+
+![](/img/ant.png)
+
+One can have the following observations;
+
+- On the average, the main lobe of the antennas are directed at the `234-546m` range which corresponds to RATA2 (L.RA.TA.UE.Index2).
+
+- the effective coverage is from `156m-1950m` (approx. 2kms!, if this is on a CBD then definitely sector coverage is overshooting).
+
+- assuming that you have a 20m antenna height covering the effective linear range as indicated above, on the average, you have a 4-6DEG antenna downtilt standard setting for all sectors.
+
+- L1800 and L2600 coverage are perfectly coincident, therefore balancing can be effectively done between these layers, a push to L26 initiative would be a potential direction with great benefits to subscriber experience.
+
+- L700 is definitely not coincident with the other layers, which presents some potential problem, it could be due to a sparse deployment or a different coverage intention other than the two but most definitely overshooting just like L18 and L26.
+
+See, just by looking into these figures one can have insight on the actual network coverage extent of the LTE sites.

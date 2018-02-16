@@ -1,0 +1,21 @@
+---
+title: LTE Spectrum Efficiency
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: lte-spectrum-efficiency
+categories: []
+tags:
+  - RF Stuff
+---
+
+***The operations engineer's perspective*** is critical for the assessment of the current usage of the networks bandwidth resources as it reflects whether the planning assumptions were close to actual performance or not - *not to start a fight between the operations and planning department*. `Spectrum efficiency`, although is much understood to be a planning parameter, should also be part of the monitoring of operations engineers. However, for most, if it's not clearly understood it is altogether ignored.
+
+To an investor, this would spell out more of like an ROI sorts of discussion - well it actually is! just read between the lines now. To say it plainly if an investor paid for 1M USD capacity and 1M for antenna investment but the deployment results in a low radio access quality, the optimistic assessment gives a 20%-50% effective information carrying capacity - to put it bluntly.  However, as an operations guy, spectrum efficiency should be rather taken to assess the subscriber experience.
+
+`Spectrum efficiency` which is measured in bps/hz is influenced by 2 prominent features - `radio access interface quality` and `antenna technology` which is able to multiply the transmit/receive streams for diversity. Where you find low quality (measured in terms of SINR/CQI) you find low spectrum efficiency and, on the other hand, a 2T2R is inferior to 4T4R antenna configuration in terms of efficiency.
+
+
+
+
+
+

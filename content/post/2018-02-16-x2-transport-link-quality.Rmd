@@ -1,0 +1,19 @@
+---
+title: X2 Transport Link Quality
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: x2-transport-link-quality
+categories: []
+tags:
+  - RF Stuff
+---
+The following proposed LTE IPPM KPI Monitoring thresholds are set for both S1 and X2 transport links.
+
+Interface      | BackJitter    | ForwardJitter | Rtt           | PLR
+ ------------- | ------------- | ------------- | ------------- | -----
+ S1            | <4ms          | <4ms          | <20ms         | <0.001%
+ X2            | <4ms          | <4ms          | <8ms          | <0.001%
+ 
+ **S1 IPPM monitoring** implementation varies among network operators, at least, for my experience depends on the UGW strategy. If the UGW are "pooled" then it is imperative to define ip session to every UGW there is in the network, which in itself is a daunting task, depending on where you are, you are looking at 100+ ip session per node.
+ 
+ And it appears that it is just half of the challenge... or a quarter?? when one is tasked to monitor the X2 link quality. Every node has its group of neighbor nodes as an X2 link peer, therefore the ability to extract the ip address for every peer appears to be the first challenge - at least on the configuration part of it. A potential future work with promising benefits is the automation of this process `(the fossil package - which can help you get the five nearest nodes, is primary tool for me to answer this challenge)`, because the quality of the X2 transport link determines the success of the implementation of some great features such as the inter-site CA (Carrier Aggregation) and would be beneficial for the assessment of MLB Algorithm precision .

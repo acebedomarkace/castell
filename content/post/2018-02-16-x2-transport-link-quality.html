@@ -1,0 +1,42 @@
+---
+title: X2 Transport Link Quality
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: x2-transport-link-quality
+categories: []
+tags:
+  - RF Stuff
+---
+
+
+
+<p>The following proposed LTE IPPM KPI Monitoring thresholds are set for both S1 and X2 transport links.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Interface</th>
+<th>BackJitter</th>
+<th>ForwardJitter</th>
+<th>Rtt</th>
+<th>PLR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>S1</td>
+<td>&lt;4ms</td>
+<td>&lt;4ms</td>
+<td>&lt;20ms</td>
+<td>&lt;0.001%</td>
+</tr>
+<tr class="even">
+<td>X2</td>
+<td>&lt;4ms</td>
+<td>&lt;4ms</td>
+<td>&lt;8ms</td>
+<td>&lt;0.001%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>S1 IPPM monitoring</strong> implementation varies among network operators, at least, for my experience depends on the UGW strategy. If the UGW are “pooled” then it is imperative to define ip session to every UGW there is in the network, which in itself is a daunting task, depending on where you are, you are looking at 100+ ip session per node.</p>
+<p>And it appears that it is just half of the challenge… or a quarter?? when one is tasked to monitor the X2 link quality. Every node has its group of neighbor nodes as an X2 link peer, therefore the ability to extract the ip address for every peer appears to be the first challenge - at least on the configuration part of it. A potential future work with promising benefits is the automation of this process <code>(the fossil package - which can help you get the five nearest nodes, is primary tool for me to answer this challenge)</code>, because the quality of the X2 transport link determines the success of the implementation of some great features such as the inter-site CA (Carrier Aggregation) and would be beneficial for the assessment of MLB Algorithm precision .</p>

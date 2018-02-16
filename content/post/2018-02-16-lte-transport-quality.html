@@ -1,0 +1,47 @@
+---
+title: LTE Transport Quality
+author: Ace Mark Acebedo
+date: '2018-02-16'
+slug: lte-transport-quality
+categories: []
+tags:
+  - RF Stuff
+---
+
+
+
+<div id="lte-ippm-strategic-deployment" class="section level3">
+<h3>LTE IPPM Strategic Deployment</h3>
+<p><strong>Telcos are in a race</strong> to secure confidence among their subscribers and its not surprising that technical people are put to work to secure the end-to-end subscriber experience measured primarily in terms of speed - or more technically, <code>the throughput.</code></p>
+<p>One peculiar matter for the LTE is its sensitivity to delay - were talking about a base requirement of 10ms which correspondes to the LTE Radio frame. We have highly developed eNodeBs to handle the air interface well enough but there should be an alignment with these quality requirements on the transport interface to the eNodeB.</p>
+<p>So far, it is a challenge for every operator to monitor the quality of the last mile transport link to the eNodeB. Huawei provides a solution for monitoring the transport quality through a proprietary feature IPPM (IP Performance Monitoring Feature). Its been proposed to have the following kpi monitoring thresholds in place:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Interface</th>
+<th>BackJitter</th>
+<th>ForwardJitter</th>
+<th>Rtt</th>
+<th>PLR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>S1</td>
+<td>&lt;4ms</td>
+<td>&lt;4ms</td>
+<td>&lt;20ms</td>
+<td>&lt;0.001%</td>
+</tr>
+<tr class="even">
+<td>X2</td>
+<td>&lt;4ms</td>
+<td>&lt;4ms</td>
+<td>&lt;8ms</td>
+<td>&lt;0.001%</td>
+</tr>
+</tbody>
+</table>
+<p>Based on actual testing, there is a substantial drop in the subscriber throughput when either one of the above thresholds are breached - an <code>instantaneous reduction of 90%</code>!</p>
+<p>Most of the eNodeBs that were detected to have issues in terms of the IPPM metrics are those which requires port-shaping (down-time there!) and those still hooked up on microwave transport links.</p>
+</div>
