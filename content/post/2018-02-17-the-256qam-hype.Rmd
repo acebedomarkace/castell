@@ -14,7 +14,7 @@ First, it's definitely handset capability dependent. The phones that support suc
 
 ![](/img/256qam.png)
 
-Figure above shows the default and the alt-cqi table (used for 256QAM) compared side-by-side under the same radio conditions. It could be observed that `256QAM` implementation assigns larger transport blocks to deliver higher speed. 
+Figure above shows the default and the alt-cqi table (used for 256QAM) compared side-by-side under the same radio conditions. It could be observed that `256QAM` implementation assigns larger transport blocks to deliver higher speed - and that is all that it does... period.
 
 
 
