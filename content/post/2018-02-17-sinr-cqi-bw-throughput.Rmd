@@ -1,0 +1,16 @@
+---
+title: SINR, CQI, BW & Throughput
+author: ''
+date: '2018-02-17'
+slug: sinr-cqi-bw-throughput
+categories: []
+tags:
+  - RF Stuff
+---
+It's most interesting when you put `RQI's (Radio Quality Indicators)` side by side and see how they influence your throughput. The following table serves to illustrate the range of throughput fluctuations per bandwidth at varying radio conditions:
+
+![](/img/cqi.png)
+
+At extremely low `CQI` ranges, equivalent to poor radio interface quality, the fluctuations are rather large (10%-30%) representing a very bad perceived experience in terms of throughput. It is therefore suggested that for `CQI` targets should be set around `CQI=10` to guarantee excellent subscriber experience.
+
+![](/img/cqiflux.png)

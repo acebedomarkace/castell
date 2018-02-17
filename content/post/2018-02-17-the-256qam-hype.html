@@ -1,0 +1,19 @@
+---
+title: The 256QAM Hype
+author: ''
+date: '2018-02-17'
+slug: the-256qam-hype
+categories: []
+tags:
+  - RF Stuff
+---
+
+
+
+<p>Everyone gets excited everytime a feature comes out especially those that claims to improve the subscriber experience in terms of throughput by a factor of 50%-100%. <strong>Question is: Under the same radio conditions can <code>256QAM</code> deliver on its promise?</strong></p>
+<p>First, it’s definitely handset capability dependent. The phones that support such capability would be, at the minimum, the Galaxy S8 - and all the succeeding high-end batches. Practically we’re looking at less than 1% of all the LTE capable mobile handsets out there - well, at least as of this writing. Probably it is for another set of devices at home in the future. But it certainly gives the hype - at least for now. But for curious RF Engineers out there, have a look at the following figure and realize that it is still the task of securing a good radio access interface quality which will quarantee that 256QAM will actually work for the subscribers. <code>CQI=10</code> is the top of mind target across the board!.</p>
+<div class="figure">
+<img src="/img/256qam.png" />
+
+</div>
+<p>Figure above shows the default and the alt-cqi table (used for 256QAM) compared side-by-side under the same radio conditions. It could be observed that <code>256QAM</code> implementation assigns larger transport blocks to deliver higher speed.</p>

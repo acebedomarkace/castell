@@ -1,0 +1,14 @@
+---
+title: The RF Quality Factor
+author: ''
+date: '2018-02-16'
+slug: the-rf-quality-factor
+categories: []
+tags:
+  - RF Stuff
+---
+
+According to basic information theory, Capacity is proportional to bandwidth, the antenna deployment strategy/technology and **radio access interface quality** - expressed in terms of `SINR`.
+
+![](/img/shannon.png)
+Some Radio engineering departments have the KPIs mostly to evaluate equipment performance, others adopted KQIs to include the end-to-end experience. The adoption of `RQIs - Radio Quality Index` is essential to provide quality metrics to operations teams as it translates closer to user experience. This shall consist mainly of SINR, CQI, Spectrum efficiency, MCS, Radio BLER counters, EVQI and Throughput.
