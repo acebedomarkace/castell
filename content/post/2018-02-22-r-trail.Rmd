@@ -1,0 +1,20 @@
+---
+title: R Trail
+author: Ace Mark Acebedo
+date: '2018-02-22'
+slug: r-trail
+categories: []
+tags:
+  - R Trail
+---
+
+```{r, echo=FALSE}
+sdate <- as.Date(strptime("11/7/2017","%m/%d/%Y"))
+dctr = Sys.Date()-sdate
+```
+
+
+Leaving an R Trail is what I am set to do. Having done my first [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) in RMarkdown and looking at that gorgeous, modern-feel, professional, expensive looking report not to mention the availability of R under the hood - I am fully persuaded that I will be an R person from here on - and an R Studio fan!... *they just make the coolest stuff*. My first R script was created last November, that is ``r dctr`` days up to the day of this post and I must say that my interest for doing everything in R has not waned. With R, I feel like I can once again take on Fast Fourier Transforms, Differential Equations, Differential/Integral Calculus, being trained in the engineering field, well I guess that kicks in naturally having a love for the physical sciences, but I feel like moving into the much-hyped ML (Machine Learning), not to add to its hype-"ness" but to actually ground it to practical and useful applications in the industry where I find myself in, and I wish to track my progress here.
+
+The **`R Trail`** is something that I wanted to leave behind for my future self - or for anyone interested to have a similar extraordinary adventure of getting things done in R - RStudio style. It would just consist of some notes, formulas and/or refence links to resources that helped me do successfully what I needed to do. As of this writing I may be properly called an `R Evangelist` advocating `data literacy` and a `data-driven decision making culture` for all who loves to make sense out of and answer their questions using real world data.
+
