@@ -1,0 +1,16 @@
+---
+title: Measuring LTE Cell Data Transfer Rate
+author: ''
+date: '2018-02-23'
+slug: measuring-lte-cell-data-transfer-rate
+categories: []
+tags:
+  - RF Stuff
+---
+
+It has often bewildered a great many RF Engineers when it comes to answering this question, **"How do you measure the cell throughput during the busy hour?"**. 
+
+There are two camps, the first `(1)` would go about by getting the sum of all data transferred per QCI (in Mb) and divide it with the sum of the time for each data transfer per QCI (seconds) duration, the other `(2)` would get the individual transfer rates per QCI and the sum of all transfer rates would be the cell's data transfer rate at any given hour - which I think is the correct one considering the ridiculous results you get when using the first method. 
+
+You start by considering basic dimensional analysis of the data transfer rate, its expressed in terms of Mb/s (Megabits per second). Mathematically the `(2)` method could be expressed as follows:
+
