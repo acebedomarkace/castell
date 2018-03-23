@@ -12,7 +12,7 @@ weight = 5
   interests = [
     "R for Applied Data Science",
     "Machine Learning",
-    "Statistical Programming"
+    "Statistics"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -35,7 +35,7 @@ weight = 5
 
 # Biography
 
-Ace is currently serving as Senior RF Engineer on a Globe Telecom project. His interests includes big data, mobile computing and programmable matter. He plays an active role in the Network Insights Team, which develops optimization
+Ace is currently serving as Senior RF Engineer on a Globe Telecom project. His interests includes data, statistical computing and visualization. He plays an active role in the Network Insights Team, which develops optimization
 solutions by analyzing network data for actionable insights using R and Tableau.
 
 He leads various quality-centric initiatives aimed at improving LTE subscriber experience.
