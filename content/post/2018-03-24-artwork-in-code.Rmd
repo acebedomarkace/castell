@@ -11,7 +11,7 @@ header:
   caption: ''
   image: ''
 ---
-While there is the determined attempt of the technical world - experts,consultants, technical advisers, academic institutions in creating data science courses, offer data science services to monetize and capitalize on the current data science "hype", reading a blog like [Fronkonstin](https://fronkonstin.com) created by Antonio Sánchez Chinchón of Telefonica - featured in a Data Camp course on [phyllotaxiz](https://www.datacamp.com/projects/62?utm_medium=fb%2Cig%2Can%2Cms-all&utm_source=fb_paid&utm_campaign=smartly_ppa&utm_id=5a9dcd6da5ec6c214b2cb7c5), for someone like me who thinks and breathes R, it's just a 'breath of fresh air'.
+While there is the determined attempt of the technical world - experts,consultants, technical advisers, academic institutions in creating data science courses, offering data science services to monetize and capitalize on the current data science "hype", reading a blog like [Fronkonstin](https://fronkonstin.com) created by Antonio Sánchez Chinchón of Telefonica - featured in a Data Camp course on [phyllotaxiz](https://www.datacamp.com/projects/62?utm_medium=fb%2Cig%2Can%2Cms-all&utm_source=fb_paid&utm_campaign=smartly_ppa&utm_id=5a9dcd6da5ec6c214b2cb7c5), for someone like me who thinks and breathes R, it's just a 'breath of fresh air'.
 
 Looking at the monstrous detail of the visualization in a short amount of [code](https://github.com/aschinchon/mandalas-colored),
 
