@@ -76,7 +76,7 @@ ggplot(df_polygon, aes(x = x, y = y)) +
 
 Just inspires me to keep exploring and doing things in R - this also eclipses my gaze at the python track, from this point on #IuseR -exclusively.
 
-While doing this blog I came across [Docker Hub](https://hub.docker.com)... yet to read up on this, seems filled with some serious neat tech stuff. I just recalled [Flowing Data](https://flowingdata.com) as well, my first source or R amazement with regard to the language's application.
+While doing this blog I came across [Docker Hub](https://hub.docker.com)... yet to read up on this, seems filled with some serious neat tech stuff. I just recalled [Flowing Data](https://flowingdata.com) as well, my first source of R amazement with regard to the language's application.
 
 
 
