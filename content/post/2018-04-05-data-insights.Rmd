@@ -1,0 +1,29 @@
+---
+title: Data Insights
+author: Ace Mark Acebedo
+date: '2018-04-05'
+slug: data-insights
+categories: []
+tags:
+  - Data Science
+header:
+  caption: ''
+  image: ''
+---
+
+I just had to blog on these key take aways from Freelance Analytics Meetup.
+For freelance gigs visit alpha-zetta.net.
+Great books! 1) Small Data by Martin Lindstrom
+             2) Data'ism
+             3) Putting your data to work
+
+Actionable Analytics:
+
+Regression Analysis - for measuring magnitude and trend
+Logistic Regression - measuring probability or likelihood
+Clustering - similarities and groupings
+Survival Analysis - determining the time to an event
+Event Analysis - understanding sequences of complex events
+Network Analysis - determining the connections between entities
+
+Kahoot.it = rocks!
