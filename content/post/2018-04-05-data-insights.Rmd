@@ -11,19 +11,23 @@ header:
   image: ''
 ---
 
-I just had to blog on these key take aways from Freelance Analytics Meetup.
-For freelance gigs visit alpha-zetta.net.
-Great books! 1) Small Data by Martin Lindstrom
-             2) Data'ism
-             3) Putting your data to work
+I just had to quick blog on these key take aways from Freelance Analytics Meetup.  
 
-Actionable Analytics:
+For freelance gigs visit [alpha-zetta.net](https://alphazetta.net)  
 
-Regression Analysis - for measuring magnitude and trend
-Logistic Regression - measuring probability or likelihood
-Clustering - similarities and groupings
-Survival Analysis - determining the time to an event
-Event Analysis - understanding sequences of complex events
-Network Analysis - determining the connections between entities
+Great books!
 
-Kahoot.it = rocks!
+1. `Small Data by Martin Lindstrom`
+2. `Data'ism`
+3. `Putting your data to work`
+
+Actionable Analytics Summary:
+
+1. **Regression Analysis** - for measuring magnitude and trend
+2. **Logistic Regression** - measuring probability or likelihood
+3. **Clustering** - similarities and groupings
+4. **Survival Analysis** - determining the time to an event
+5. **Event Analysis** - understanding sequences of complex events
+6. **Network Analysis** - determining the connections between entities
+
+[Kahoot.it](https://kahoot.it) = rocks!
